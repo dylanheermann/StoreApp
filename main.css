@@ -1,0 +1,152 @@
+body{
+	background-image: url("blue-cool.png");
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: verdana;
+}
+
+.header{
+font-weight: bold;
+
+
+
+}
+#main-header{
+	height:155px;
+}
+
+
+
+.logo{
+	height: 150px;
+	width: 150px;
+	border-radius: 75px;
+	float: left;
+	margin-right: 10px;
+
+}
+
+
+/*Title*/
+#header-name{
+	font-size:40px;
+	color: green;
+	padding: 75px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+/*Search*/
+#search{
+	float:right;
+	padding: 5px;
+	margin: 10px 10px 0px 0px;
+}
+
+
+
+
+
+
+
+/*Banner section */
+.banner{
+	background-image: url("blue-cool.png");
+	display: inline-block;
+
+}
+#main-image{
+	float:left;
+	width: 70%;
+	height:30%;
+}
+
+#dailydeal{
+	float:right;
+	width:30%;
+	height: 20%;
+
+}
+
+/*Welcome text*/
+#welcome{
+	float: left;
+	width: 70%;
+	font-size: 12px;
+	margin: 20px 0px 20px 0px;
+}
+
+#welcome > header{
+	color: green;
+	font-size: 21px;
+	font-weight: bold;
+	margin: bottom;
+}
+
+#recent-news
+{
+	float: right;
+	width: 300px;
+	margin: 20px 0px 20px 0px;
+}
+
+#recent-news > header{
+	margin-left: 5px;
+	color:green;
+	font-size: 15px;
+	font-weight: bold;
+	margin: bottom;
+}
+
+#recent-news > ul{
+	list-style: none;
+}
+
+>recent-news >ul >li{
+	margin: 0px 0px 3px 0px;
+}
+
+/*main*/
+#main{
+	height: 100%
+	width: 70%;
+	float: left;
+	margin: 0px 0px 3px 0px;
+}
+
+#jellybean-header{
+	color:green;
+	font-size: 15px;
+	margin: 0px 0px 3px 0px;
+	height: 20px;
+}
+
+#header-title{
+	background-color: red;
+	border-radius: 5px;
+
+}
+
+.products{
+	float: left;
+	width: 25%;
+	margin: 0px 0px 20px 0px;
+}
+
+.product-article{
+	height: 150px;
+	width: 200px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: purple;
+	margin: 3px 3px 3px 3px;
+	padding: 3px 3px 3px 3px;
+	border-radius: 5px;
+}
+
+.product-article-thumbnail{
+	width: 70%;
+	height: 70%;
+}
